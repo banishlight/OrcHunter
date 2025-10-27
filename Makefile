@@ -1,6 +1,6 @@
 CXX:=g++
 CXXFLAGS:= -Wall -Wextra -std=c++17 -MMD
-LDFLAGS:=
+LDFLAGS:= -lraylib
 SRC_DIR:=src
 INC_DIR:=inc
 BUILD_DIR:=build
